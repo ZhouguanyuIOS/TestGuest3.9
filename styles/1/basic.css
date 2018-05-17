@@ -1,0 +1,182 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+    font-size: 14px;
+    /*border: 2px solid black;*/
+}
+ul{
+    list-style-type: none;//去掉小圆点
+}
+h2{
+    font-size: 14px;
+    background: #eeeeee;
+    height: 25px;
+    line-height: 25px;
+    text-indent: 10px;
+}
+#header{
+    width: auto;
+    height: 150px;
+    border:  2px solid #cccccc;
+    margin: 10px 0;
+}
+#header h1{
+    font-size: 12px;
+    width: 210px;
+    height: 39px;
+    background:url("../../images/logo1.jpg") no-repeat;
+    margin: 50px 0px 0px 50px;
+}
+#header h1 a{
+    width: 210px;
+    height: 39px;
+    display: block;
+    text-indent: -999px;
+}
+#header ul{
+    text-align: right;
+    padding: 20px 50px 0px 0px;
+}
+#header ul li{
+    display:  inline;//在同一行
+}
+#header ul li a{
+    text-decoration: none;
+    color: #333333;
+}
+#header ul li a:hover{
+    color: #ff0000;
+}
+#header ul li strong.noread{
+    background: url("../../images/noread.gif") no-repeat left center;
+    padding: 0 0 0 15px;
+}
+#header ul li strong.read{
+    background: url("../../images/read.gif") no-repeat left center;
+    padding: 0 0 0 15px;
+}
+#footer{
+    clear: both;
+    width: auto;
+    height: 60px;
+    /*border:  2px solid #cccccc;*/
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+#member{
+    width: auto;
+    height: 600px;
+    border: 2px solid #cccccc;
+    font-size: 12px;
+}
+#member h2{
+    text-align: center;
+    text-indent: 0px;
+    height: 30px;
+    line-height: 30px;
+}
+#member #member_sidebar{
+    border: 2px dashed #999999;
+    width: 300px;
+    height: 500px;
+    margin: 15px;
+    float: left;
+}
+#member #member_sidebar dl{
+    width: 250px;
+    background: red;
+    margin: 15px auto;
+}
+#member #member_sidebar dl dt{
+    height: 40px;
+    line-height: 40px;
+    background: #999999;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+#member #member_sidebar dl dd{
+    height: 40px;
+    line-height: 40px;
+    background: #eeeeee;
+    font-weight: bold;
+    text-align: center;
+}
+#member #member_sidebar dl dd a{
+    display: block;
+    color: #333333;
+    text-decoration: none;
+}
+#member #member_sidebar dl dd a:hover{
+    background: #cccccc;
+}
+
+#member #member_main{
+    border: 2px dashed #999999;
+    width: 585px;
+    height: 500px;
+    margin: 15px;
+    float: right;
+}
+
+
+
+#footer p {
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 5px 0px 0px 0px;
+}
+#footer p span{
+    color: #0066ff;
+}
+#page_num{
+    height: 20px;
+    clear: both;
+    padding:10px 0 ;
+    position: relative;
+}
+#page_num ul{
+    position: absolute;
+    right: 30px;
+    height: 20px;
+}
+#page_num ul li{
+    float: left;
+    width: 26px;
+    height: 20px;
+}
+#page_num ul li a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #333333;
+    text-align: center;
+    text-decoration: none;
+}
+#page_num ul li a:hover,#page_num ul li a.selected{
+    background: #666666;
+    font-weight:bold;
+    color: white;
+}
+
+#page_text{
+    height: 20px;
+    clear: both;
+    padding:20px 0 ;
+}
+#page_text ul{
+    text-align: center;
+}
+#page_text ul li{
+    display: inline;
+}
+#page_text ul li a{
+    color: #333333;
+}

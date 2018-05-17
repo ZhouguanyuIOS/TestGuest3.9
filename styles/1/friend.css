@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body{
+    width:auto;
+}
+#friend h3{
+    width: 80%;
+    margin: 10px auto;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px dashed #333333;
+    background: #eeeeee;
+}
+#friend dl{
+    width: 90%;
+    margin: 0 auto;
+
+}
+#friend dl dd{
+    margin: 5px 0;
+}
+#friend dl dd input.text{
+    width: 180px;
+    height: 19px;
+    background: #ffffff;
+    border: 1px dashed #333333;
+}
+#friend dl dd input.yzm{
+    width:  60px;
+}
+#friend dl dd img#codeOne{
+    position: relative;
+    top: 8px;
+    left: 10px;
+    cursor: pointer;
+}
+#friend dl dd textarea{
+    width: 100%;
+    height: 120px;
+    background: #ffffff;
+    border: 1px dashed #333333;
+    overflow-y: scroll;
+}
+#friend dl dd input.submit{
+    cursor: pointer;
+
+}

@@ -1,0 +1,90 @@
+@charset "UTF-8";
+#member{
+    width: auto;
+    height: 600px;
+    border: 2px solid #cccccc;
+    font-size: 12px;
+}
+#member h2{
+    text-align: center;
+    text-indent: 0px;
+    height: 30px;
+    line-height: 30px;
+}
+#member #member_sidebar{
+    border: 2px dashed #999999;
+    width: 300px;
+    height: 500px;
+    margin: 15px;
+    float: left;
+}
+#member #member_sidebar dl{
+    width: 250px;
+    background: red;
+    margin: 15px auto;
+}
+#member #member_sidebar dl dt{
+    height: 40px;
+    line-height: 40px;
+    background: #999999;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+#member #member_sidebar dl dd{
+    height: 40px;
+    line-height: 40px;
+    background: #eeeeee;
+    font-weight: bold;
+    text-align: center;
+}
+#member #member_sidebar dl dd a{
+    display: block;
+    color: #333333;
+    text-decoration: none;
+}
+#member #member_sidebar dl dd a:hover{
+    background: #cccccc;
+}
+
+#member #member_main{
+    border: 2px dashed #999999;
+    width: 585px;
+    height: 500px;
+    margin: 15px;
+    float: right;
+}
+#member #member_main dl{
+    width: 500px;
+    margin: 15px auto;
+    font-size: 14px;
+    border-bottom: 1px dashed #999999;
+    text-align: left;
+}
+#member #member_main dl dd{
+    padding: 10px 0;
+    border-bottom: 1px dashed #999999;
+
+}
+#member #member_main dl dd input.text{
+    width: 220px;
+    height: 19px;
+    border: 1px dashed #333333;
+    background: #ffffff;
+}
+#member #member_main dl dd input.yzm{
+    width: 60px;
+}
+#member #member_main dl dd img#codeOne{
+    position: relative;
+    top: 8px;
+    cursor: pointer;
+}
+#member #member_main dl dd  input.submit{
+    width: 60px;
+    height: 22px;
+    border: 1px dashed #3333;
+    background: #ffffff;
+    cursor: pointer;
+
+}

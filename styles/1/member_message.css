@@ -1,0 +1,21 @@
+@charset "UTF-8";
+#member #member_main table {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    background: #cccccc;
+    margin-bottom: 0px;
+}
+#member #member_main table th,#member #member_main table td{
+    background: #ffffff;
+    height: 25px;
+    line-height: 25px;
+
+}
+#member #member_main table td a{
+    text-decoration: none;
+    color: #333333;
+}
+#member #member_main table td a:hover{
+    text-decoration: underline;
+}
